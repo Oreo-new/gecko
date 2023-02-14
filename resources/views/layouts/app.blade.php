@@ -15,10 +15,10 @@
         @stack('header-scripts')
     </head>
 	
-	<body class="font-sans antialiased {{ (str_contains(Route::current()->domain(), 'idrett.' . env('APP_ROOT_DOMAIN')) ? 'idrett_container' : 'gymnas_container' )}}" id="body">
+	<body class="font-sans antialiased" id="body">
 		<div class="">
 			<header>
-				{{-- <x-pages.navigation/> --}}
+				<x-includes.navigation/>
 			</header>
 
 			<main class="max-container">
