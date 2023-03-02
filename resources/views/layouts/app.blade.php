@@ -7,7 +7,6 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
         <style>[x-cloak] { display: none !important; }</style>
 		@vite(['resources/css/app.scss', 'resources/js/app.js'])
         @livewireStyles
@@ -16,16 +15,16 @@
     </head>
 	
 	<body class="font-sans antialiased" id="body">
-		<div class="">
+		<div class="relative">
 			<header>
-				<x-includes.navigation/>
+				{{-- <x-includes.navigation/> --}}
 			</header>
 
 			<main class="max-container">
 				{{ $slot }} 
 			</main>
 
-			<footer class="theme-dark-color-bg text-white mt-8">
+			<footer class="theme-dark-color-bg text-white">
 				<div class=""> 
 					{{-- <x-pages.footer/> --}}
 				</div>

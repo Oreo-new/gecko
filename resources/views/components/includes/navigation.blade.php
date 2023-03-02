@@ -15,10 +15,10 @@
                             @endphp
                             @if($counter == 3)
                                 <div class="logo flex py-4 px-14">
-                                    <img src="{{ asset('images/langen-logo.jpeg') }}" alt="langen" class="w-80">
+                                    <img src="{{ asset('images/lagen-logo.png') }}" alt="langen" class="w-80">
                                 </div> 
                             @endif
-                            <li class="px-6 py-6"><a href="{{$item->url}}">{{$item->name}}</a></li>
+                            <li class="px-6 text-xl"><a href="{{$item->url}}">{{$item->name}}</a></li>
                         @endforeach
                     </ul>
                 </div>
