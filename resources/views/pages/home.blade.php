@@ -6,13 +6,13 @@
     <div id="" class="flex  items-center w-full h-screen bg-no-repeat bg-cover home-cover" style="background-image: url({{ asset('/storage/' .$page->image) }});">
         
         <div class="w-full block">
-            <div class="text-5xl text-center text-white merri">Greetings to the USA</div>
-            <div class="text-4xl text-center text-white roboto mt-10">Welcome to Lagen Island! <br />
+            <div class="text-5xl text-center text-[#1064BA] merri">Greetings to the USA</div>
+            <div class="text-4xl text-center text-[#FE9601] roboto mt-10">Welcome to Lagen Island! <br />
                 The island paradise</div>
 
 
             <div x-data="{ open: false }">
-                <button class="mx-auto block border-2 text-white mt-8 px-4 py-2 roboto text-lg cursor-pointer z-30 pointer-events-auto" @click="open = ! open">
+                <button class="mx-auto block border-2 border-[#FE9601] text-white mt-8 px-4 py-2 roboto text-lg cursor-pointer z-30 pointer-events-auto" @click="open = ! open">
                     Our US Booking partners
                 </button>
 
