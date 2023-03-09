@@ -6,13 +6,13 @@
     <div id="" class="flex  items-center w-full h-screen bg-no-repeat bg-cover home-cover" style="background-image: url({{ asset('/storage/' .$page->image) }});">
         
         <div class="w-full block">
-            <div class="text-5xl text-center text-[#1064BA] merri">Greetings to the USA</div>
-            <div class="text-4xl text-center text-[#FE9601] roboto mt-10">Welcome to Lagen Island! <br />
+            <div class="text-3xl md:text-5xl text-center text-[#1064BA] merri">Greetings to the USA</div>
+            <div class="text-xl md:text-4xl text-center text-[#FE9601] roboto mt-10">Welcome to Lagen Island! <br />
                 The island paradise</div>
 
 
             <div x-data="{ open: false }">
-                <button class="mx-auto block border-2 border-[#FE9601] text-white mt-8 px-4 py-2 roboto text-lg cursor-pointer z-30 pointer-events-auto" @click="open = ! open">
+                <button class="mx-auto block border-2 border-[#FE9601] text-white mt-8 px-4 py-2 roboto text-sm md:text-lg cursor-pointer z-30 pointer-events-auto" @click="open = ! open">
                     Our US Booking partners
                 </button>
 
@@ -25,7 +25,7 @@
                     x-transition:leave-end="opacity-0 right-10">
                     <div class="z-10" role="dialog" aria-modal="true">
                         <div class="fixed inset-0 flex items-center bg-gray-500 bg-opacity-75 transition-opacity z-40 top-0 bottom-0 w-full h-full">
-                            <div class="w-[400px] h-[400px] bg-white relative mx-auto rounded p-10">
+                            <div class="w-full md:w-[400px] md:h-[400px] bg-white relative mx-2 md:mx-auto rounded p-2 md:p-10">
                                 <span class="absolute top-2 right-2 cursor-pointer" @click="open = false">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
