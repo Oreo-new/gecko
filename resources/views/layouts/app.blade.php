@@ -29,8 +29,7 @@
 		<link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="https://lagenisland.com/feed/" />
 		<link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="https://lagenisland.com/comments/feed/" />
 		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.12.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
-		<script
-src="//www.googletagmanager.com/gtag/js?id=UA-76848651-3"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+		<script src="//www.googletagmanager.com/gtag/js?id=UA-76848651-3"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
         <style>[x-cloak] { display: none !important; }</style>
 		@vite(['resources/css/app.scss', 'resources/js/app.js'])
         @livewireStyles
