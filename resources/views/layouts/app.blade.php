@@ -34,7 +34,7 @@ src="//www.googletagmanager.com/gtag/js?id=UA-76848651-3"  data-cfasync="false" 
         <style>[x-cloak] { display: none !important; }</style>
 		@vite(['resources/css/app.scss', 'resources/js/app.js'])
         @livewireStyles
-		@livewireScripts
+		
         @stack('header-scripts')
     </head>
 	
@@ -56,5 +56,6 @@ src="//www.googletagmanager.com/gtag/js?id=UA-76848651-3"  data-cfasync="false" 
 		</div>
 		
 		@stack('scripts')
+		@livewireScripts
 	</body>
 </html>
