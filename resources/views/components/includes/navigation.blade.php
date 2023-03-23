@@ -8,7 +8,7 @@
         <div class="container mx-auto px-4">
             <div class="flex items-center">
                 <div class="menu flex  w-full">
-                    <ul class="list-none flex m-0 p-0 justify-center w-full items-center">
+                    <ul class="list-none flex m-0 p-0 w-full items-center">
                         @foreach($menu as $item)
                             @php
                                 $counter++;
