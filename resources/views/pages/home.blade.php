@@ -61,7 +61,7 @@
                     x-transition:leave-end="opacity-0 right-10">
                     <div class="z-10" role="dialog" aria-modal="true">
                         <div class="fixed inset-0 flex items-center bg-gray-500 bg-opacity-75 transition-opacity z-40 top-0 bottom-0 w-full h-full">
-                            <div class="w-full md:w-[350px] md:h-[350px] bg-white relative mx-4 md:mx-auto rounded p-2 md:p-10">
+                            <div class="w-full sm:w-[350px] sm:h-[350px] bg-white relative mx-4 sm:mx-auto rounded p-2 md:p-10">
                                 <span class="absolute top-2 right-2 cursor-pointer" @click="open = false">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
