@@ -23,11 +23,11 @@
                         <div class="fixed  justify-end flex items-center bg-gray-500 bg-opacity-75 transition-opacity z-40 top-0 bottom-0 right-0 w-full h-full">
                             <div class="w-[200px] h-screen bg-white relative p-2">
                                 <span class="absolute top-2 right-2 cursor-pointer" @click="open = false">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute w-8 h-8 top-2 right-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute w-8 h-8 top-4 right-3 ">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                                       </svg>                                      
                                 </span>
-                                <ul class="list-none mt-10">
+                                <ul class="list-none mt-16">
                                     <li class="pl-4 text-xl hover:text-blue-700 mt-3 underline"><a href="#">Accomodation</a></li>
                                     <li class="pl-4 text-xl hover:text-blue-700 mt-3 underline"><a href="#">Activities</a></li>
                                     <li class="pl-4 text-xl hover:text-blue-700 mt-3 underline"><a href="#">Transportation</a></li>
