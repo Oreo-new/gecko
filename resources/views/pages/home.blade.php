@@ -8,7 +8,7 @@
                 <li class="px-6 text-xl hover:text-blue-700"><a href="#">Activities</a></li>
                 <li class="px-6 text-xl hover:text-blue-700"><a href="#">Transportation</a></li>
             </ul>
-            <div x-data="{ open: false }">
+            <div  x-cloak x-data="{ open: false }">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="block lg:hidden absolute w-8 h-8 top-4 right-3 cursor-pointer" @click="open = ! open">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
@@ -47,7 +47,7 @@
                 The island paradise</div>
 
 
-            <div x-data="{ open: false }">
+            <div x-cloak x-data="{ open: false }">
                 <button class="mx-auto block bg-blue-500 hover:bg-blue-700 rounded text-white mt-8 px-4 py-2 roboto text-sm md:text-lg cursor-pointer z-30 pointer-events-auto" @click="open = ! open">
                     Our US Booking Partners
                 </button>
