@@ -40,7 +40,7 @@
         </div>
         
     </div>
-    <div id="" class="flex  items-center w-full h-screen bg-no-repeat bg-cover home-cover bg-center" style="background-image: url({{ asset('/images/d-gecko-hotel.jpg') }});">
+    <div id="" class="flex  items-center w-full h-screen bg-no-repeat bg-cover home-cover bg-left sm:bg-center" style="background-image: url({{ asset('/images/d-gecko-hotel.jpg') }});">
         
         <div class="w-full block mt-40 sm:mt-32 md:mt-32 lg:mt-32">
 
