@@ -1,13 +1,13 @@
 <x-app-layout>
  
-    <div class="fixed w-full top-0 z-10 bg-[#FFFFFF] py-2">
-        <div class="flex items-center content-between w-full">
-            <img src="{{ asset('images/langen-logo.jpeg') }}" alt="langen" class="w-60 md:w-64 mx-auto">
-            <ul class="list-none hidden lg:flex m-0 p-0 w-full items-center justify-end ">
-                <li class="px-6 text-xl hover:text-blue-700"><a href="#">Accomodation</a></li>
-                <li class="px-6 text-xl hover:text-blue-700"><a href="#">Activities</a></li>
-                <li class="px-6 text-xl hover:text-blue-700"><a href="#">Transportation</a></li>
+    <div class="fixed w-full top-0 z-10">
+        <div class="flex items-center content-between w-full bg-slate-50 ">
+            <ul class="list-none hidden lg:flex m-0 p-0 w-full items-center justify-end py-5 z-20">
+                <li class="px-6 text-2xl text-blue-500 hover:text-blue-700"><a href="#">Accomodation</a></li>
+                <li class="px-6 text-2xl text-blue-500 hover:text-blue-700"><a href="#">Activities</a></li>
+                <li class="px-6 text-2xl text-blue-500 hover:text-blue-700"><a href="#">Transportation</a></li>
             </ul>
+            <div></div>
             <div  x-cloak x-data="{ open: false }">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="block lg:hidden absolute w-8 h-8 top-4 right-3 cursor-pointer" @click="open = ! open">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -28,9 +28,9 @@
                                       </svg>                                      
                                 </span>
                                 <ul class="list-none mt-16">
-                                    <li class="pl-4 text-xl hover:text-blue-700 mt-3 underline"><a href="#">Accomodation</a></li>
-                                    <li class="pl-4 text-xl hover:text-blue-700 mt-3 underline"><a href="#">Activities</a></li>
-                                    <li class="pl-4 text-xl hover:text-blue-700 mt-3 underline"><a href="#">Transportation</a></li>
+                                    <li class="pl-4 text-xl hover:text-blue-700 text-blue-500 mt-3 underline"><a href="#">Accomodation</a></li>
+                                    <li class="pl-4 text-xl hover:text-blue-700 text-blue-500 mt-3 underline"><a href="#">Activities</a></li>
+                                    <li class="pl-4 text-xl hover:text-blue-700 text-blue-500 mt-3 underline"><a href="#">Transportation</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -40,16 +40,14 @@
         </div>
         
     </div>
-    <div id="" class="flex  items-center w-full h-screen bg-no-repeat bg-cover home-cover bg-center" style="background-image: url({{ asset('/storage/' .$page->image) }});">
+    <div id="" class="flex  items-center w-full h-screen bg-no-repeat bg-cover home-cover bg-center" style="background-image: url({{ asset('/images/d-gecko-hotel.jpg') }});">
         
         <div class="w-full block mt-40 sm:mt-32 md:mt-32 lg:mt-32">
-            <div class="text-2xl md:text-4xl text-center text-white roboto mt-10">Welcome to Lagen Island! <br />
-                The island paradise</div>
 
 
             <div x-cloak x-data="{ open: false }">
                 <button class="mx-auto block bg-blue-500 hover:bg-blue-700 rounded text-white mt-8 px-4 py-2 roboto text-sm md:text-lg cursor-pointer z-30 pointer-events-auto" @click="open = ! open">
-                    Our US Booking Partners
+                    Check Availability
                 </button>
 
                 <div x-show="open" @click.outside="open = false"
