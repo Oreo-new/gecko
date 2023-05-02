@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-		<title>D Gecko Hotel -</title>
+		<title>D Gecko Hotel</title>
 	
         <style>[x-cloak] { display: none !important; }</style>
 		@vite(['resources/css/app.scss', 'resources/js/app.js'])
